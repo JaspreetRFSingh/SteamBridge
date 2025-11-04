@@ -1,0 +1,87 @@
+# Compiled files
+*.class
+*.jar
+*.war
+*.ear
+*.aar
+*.tar.gz
+*.zip
+
+# Build directories
+target/
+build/
+dist/
+out/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.settings/
+.project
+.classpath
+.factorypath
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Logs
+*.log
+logs/
+*.log.*
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Docker
+.docker/
+
+# AI Assistants
+.qwen/
+.claude/
+.cursor/
+.github/copilot-instructions.md
+
+# Maven
+.mvn/
+mvnw
+mvnw.cmd
+
+# Kubernetes secrets
+*-secrets.yaml
+*-secret.yaml
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.bak
+*.cache
+
+# Test coverage
+coverage/
+*.exec
+.nyc_output/
+
+# Dependencies
+node_modules/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Certificates
+*.pem
+*.key
+*.crt
+*.p12
+*.jks
