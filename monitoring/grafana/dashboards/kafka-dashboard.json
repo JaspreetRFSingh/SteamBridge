@@ -1,0 +1,17 @@
+{
+  "dashboard": {
+    "title": "Kafka StreamBridge Dashboard",
+    "panels": [
+      {
+        "title": "Kafka Connect Throughput",
+        "type": "graph",
+        "targets": [{"expr": "rate(kafka_connect_sink_record_write_count_total[5m])", "legendFormat": "{{connector}}"}]
+      },
+      {
+        "title": "Connector Error Rate",
+        "type": "graph",
+        "targets": [{"expr": "rate(kafka_connect_sink_record_send_failure_count_total[5m])", "legendFormat": "{{connector}}"}]
+      }
+    ]
+  }
+}
