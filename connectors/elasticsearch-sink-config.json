@@ -1,0 +1,10 @@
+{
+  "name": "elasticsearch-sink",
+  "config": {
+    "connector.class": "com.streambridge.connectors.elasticsearch.ElasticsearchSinkConnector",
+    "elasticsearch.connection.url": "http://elasticsearch:9200",
+    "elasticsearch.index.name": "streambridge-events",
+    "elasticsearch.batch.size": "1000",
+    "topics": "cdc.insert,cdc.update,cdc.delete"
+  }
+}
